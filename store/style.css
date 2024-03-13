@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    color: aliceblue;
 }
 
 body{
     width: 100vw;
-    height: auto;overflow-x: hidden;
-    padding: 2rem;
+    height: auto;
+    overflow-x: hidden;
+    padding: 2em;
     background-image: url(/assets/background_2.png);
     background-attachment: fixed;
     background-size: cover;
@@ -17,5 +17,40 @@ body{
 
 .idPerfil{
     display: flex;
-    gap: 5px;
+    gap: 10px;
+}
+
+.title{
+    width: 20vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(41, 19, 39);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(118, 0, 145);
+    color: rgb(234, 0, 255);
+    text-shadow: 0px 0px 10px 5px rgb(118, 0, 145);
+    border: 2px solid rgb(118, 0, 145);
+}
+
+.ft_div{
+    color: aliceblue;
+
+}
+
+.para{
+    color: rgba(255, 255, 255, 0.788);
+}
+
+#user{
+    color: rgba(255, 238, 0, 0.911);
+}
+
+
+@media (width <= 900px){
+    .center{
+        justify-content: center;
+        gap: 2vh;
+    }
 }
