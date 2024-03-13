@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+}
+
+body{
+    width: 100vw;
+    height: auto;overflow-x: hidden;
+    padding: 2rem;
+    background-image: url(/assets/background_2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.idPerfil{
+    display: flex;
+    gap: 5px;
+}
