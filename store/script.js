@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function(){
             card.className = "card"
             card.style.width = "18rem"
             card.style.marginRight = "10px"
+            card.style.boxShadow = "0px 0px 10px 5px rgb(118, 0, 145)"
+            card.style.margin = "1rem"
 
             const imagem = document.createElement("img")
             imagem.src = produto.imagem
@@ -30,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
             const cardBody = document.createElement("div")
             cardBody.classname = "card-body"
+
 
             const cardTitle = document.createElement("h5")
             cardTitle.className = "card-title"
